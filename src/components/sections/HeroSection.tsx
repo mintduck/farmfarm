@@ -17,15 +17,6 @@ function HeroSection() {
           <h1 className="section__title">{heroTitle}</h1>
 
           <p className="section__description">{heroDescription}</p>
-
-          <div className="hero__actions">
-            <CTAButton
-              href={orderFormUrl}
-              ariaLabel="네이버폼에서 복숭아 예약 주문하기"
-            >
-              {primaryCTA}
-            </CTAButton>
-          </div>
         </div>
 
         <figure className="hero__visual">
@@ -38,10 +29,21 @@ function HeroSection() {
           />
 
           <figcaption className="hero__notice">
-            사진은 페이지 분위기를 돕기 위한 참고 이미지이며,<br></br> 실제 수확
-            사진은 준비되는 대로 교체할 예정입니다.
+            사진은 페이지 분위기를 돕기 위한 참고 이미지이며,
+            <br />
+            실제 수확 사진은 준비되는 대로 교체할 예정입니다.
           </figcaption>
         </figure>
+
+        <div className="hero__actions">
+        <CTAButton
+          href={orderFormUrl}
+          ariaLabel="네이버폼에서 복숭아 예약 주문하기"
+          className="cta-button hero__cta"
+        >
+          {primaryCTA}
+        </CTAButton>
+        </div>
       </div>
     </section>
   );
