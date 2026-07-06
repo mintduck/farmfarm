@@ -1,10 +1,14 @@
+import Header from "./components/layout/Header";
 import HeroSection from "./components/sections/HeroSection";
 
 function App() {
   return (
-    <main>
-      <HeroSection />
-    </main>
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+      </main>
+    </>
   );
 }
 
