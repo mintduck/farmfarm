@@ -104,3 +104,54 @@ body {
     min-height: 280px;
   }
 }
+
+.hero {
+  padding-top: 56px;
+}
+
+.hero__inner {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero__content {
+  max-width: 640px;
+}
+
+.hero__actions {
+  margin-top: 28px;
+}
+
+.hero__visual {
+  margin: 0;
+}
+
+.hero__image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.hero__notice {
+  margin-top: 10px;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
+
+  .hero__inner {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+    gap: 56px;
+  }
+}

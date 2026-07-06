@@ -5,54 +5,42 @@ import {
   heroTitle,
   orderFormUrl,
   primaryCTA,
-  secondaryCTA,
 } from "../../data/site";
 
 function HeroSection() {
   return (
-    <section className="section">
-      <div className="container">
-        <p className="section__eyebrow">{heroEyebrow}</p>
-        <h1 className="section__title">{heroTitle}</h1>
-        <p className="section__description">{heroDescription}</p>
+    <section className="section hero">
+      <div className="container hero__inner">
+        <div className="hero__content">
+          <p className="section__eyebrow">{heroEyebrow}</p>
 
-        <p
-          style={{
-            marginTop: 24,
-            display: "flex",
-            flexWrap: "wrap",
-            gap: 12,
-          }}
-        >
-          <CTAButton href={orderFormUrl} ariaLabel={primaryCTA}>
-            {primaryCTA}
-          </CTAButton>
-          <CTAButton href={orderFormUrl} ariaLabel={secondaryCTA}>
-            {secondaryCTA}
-          </CTAButton>
-        </p>
+          <h1 className="section__title">{heroTitle}</h1>
 
-        <figure
-          style={{
-            margin: "32px 0 0",
-            aspectRatio: "4 / 3",
-            minHeight: 220,
-            borderRadius: "var(--radius-md)",
-            overflow: "hidden",
-            background: "var(--color-primary-soft)",
-          }}
-        >
+          <p className="section__description">{heroDescription}</p>
+
+          <div className="hero__actions">
+            <CTAButton
+              href={orderFormUrl}
+              ariaLabel="네이버폼에서 복숭아 예약 주문하기"
+            >
+              {primaryCTA}
+            </CTAButton>
+          </div>
+        </div>
+
+        <figure className="hero__visual">
           <img
+            className="hero__image"
             src="/images/hero-peach.jpg"
-            alt="복숭아를 연상시키는 따뜻한 분위기의 참고 이미지"
+            alt="복숭아 참고 이미지"
             width={1080}
             height={810}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-            }}
           />
+
+          <figcaption className="hero__notice">
+            사진은 페이지 분위기를 돕기 위한 참고 이미지이며,<br></br> 실제 수확
+            사진은 준비되는 대로 교체할 예정입니다.
+          </figcaption>
         </figure>
       </div>
     </section>
