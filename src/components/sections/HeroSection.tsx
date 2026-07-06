@@ -44,7 +44,7 @@ function HeroSection() {
         >
           <img
             src="/images/hero-peach.jpg"
-            alt="부모님이 직접 수확해 고른 복숭아가 담긴 바구니"
+            alt="복숭아를 연상시키는 따뜻한 분위기의 참고 이미지"
             width={1080}
             height={810}
             style={{
