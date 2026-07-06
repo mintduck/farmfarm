@@ -1,0 +1,22 @@
+:root {
+  --color-bg: #fff8f0;
+  --color-surface: #ffffff;
+  --color-primary: #f28c7a;
+  --color-primary-soft: #ffd7c8;
+  --color-green: #6f8f5f;
+  --color-text: #2f2a26;
+  --color-text-muted: #6f625b;
+  --color-border: #eadfd6;
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Pretendard", "Segoe UI", sans-serif;
+
+  --max-width: 1080px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-full: 999px;
+
+  --space-section-mobile: 64px;
+  --space-section-desktop: 96px;
+}

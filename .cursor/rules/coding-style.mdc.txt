@@ -1,0 +1,60 @@
+---
+description: Vite React TypeScript 코드 스타일 규칙
+alwaysApply: true
+---
+
+# Coding Style Rules
+
+## Stack
+
+- Vite
+- React
+- TypeScript
+- CSS
+- Netlify
+
+## File Structure
+
+기본 구조는 아래를 따른다.
+
+src/
+- components/common
+- components/layout
+- components/sections
+- data
+- styles
+
+## React Rules
+
+- 함수형 컴포넌트를 사용한다.
+- props 타입은 type으로 명확하게 작성한다.
+- any 사용을 피한다.
+- 불필요한 상태 useState를 만들지 않는다.
+- 서버 상태 관리 라이브러리를 추가하지 않는다.
+- 단순 데이터는 src/data 파일에서 import한다.
+- 컴포넌트 안에 긴 콘텐츠 배열을 직접 넣지 않는다.
+
+## CSS Rules
+
+- CSS Modules를 사용하지 않는다.
+- 일반 CSS 파일을 사용한다.
+- tokens.css의 CSS 변수를 우선 사용한다.
+- 모바일 우선으로 작성한다.
+- breakpoint는 기본적으로 768px, 1024px를 사용한다.
+- 버튼, 카드, 섹션 여백은 공통 클래스를 재사용한다.
+
+## Accessibility
+
+- h1은 페이지에 하나만 사용한다.
+- 섹션 제목은 h2를 사용한다.
+- 이미지에는 alt를 작성한다.
+- CTA 링크에는 명확한 aria-label을 사용한다.
+- 외부 링크에는 target="_blank"와 rel="noopener noreferrer"를 사용한다.
+- focus-visible 스타일을 제공한다.
+
+## Performance
+
+- 불필요한 라이브러리를 추가하지 않는다.
+- 이미지는 public/images에 두고 적절한 alt를 작성한다.
+- 큰 이미지에는 loading="lazy"를 고려한다.
+- 애니메이션은 최소화한다.
