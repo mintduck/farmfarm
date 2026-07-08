@@ -3,7 +3,7 @@ export const siteTitle = "뉴스톡팜의 첫 복숭아 예약 주문";
 export const siteDescription =
   "부모님이 직접 수확하고 하나씩 살펴 고른 복숭아를 가까운 분들께 조심스럽게 소개합니다. 필요하신 분만 편하게 예약해 주세요.";
 
-export const orderFormUrl = "https://form.naver.com/";
+export const orderFormUrl = "https://naver.me/x8kIh6uO";
 
 export const heroEyebrow = "부모님의 첫 수확";
 
