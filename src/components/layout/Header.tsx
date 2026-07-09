@@ -1,5 +1,5 @@
 import CTAButton from "../common/CTAButton";
-import { orderFormUrl, primaryCTA, siteTitle } from "../../data/site";
+import { navItems, orderFormUrl, primaryCTA, siteTitle } from "../../data/site";
 
 function Header() {
   return (
@@ -9,9 +9,17 @@ function Header() {
           {siteTitle}
         </a>
 
+        <nav className="site-header__nav" aria-label="페이지 섹션 메뉴">
+          {navItems.map((item) => (
+            <a className="site-header__nav-link" href={item.href} key={item.href}>
+              {item.label}
+            </a>
+          ))}
+        </nav>
+
         <CTAButton
           href={orderFormUrl}
-          ariaLabel="네이버폼에서 복숭아 예약 주문하기"
+          ariaLabel="네이버폼에서 홍백복숭아 예약 주문하기"
           className="cta-button site-header__cta"
         >
           {primaryCTA}
