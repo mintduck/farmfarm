@@ -196,3 +196,288 @@ body {
     font-size: 13px;
   }
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background, #fff8f1);
+  color: var(--color-text, #2f251f);
+}
+
+.container {
+  width: min(100% - 32px, 1080px);
+  margin: 0 auto;
+}
+
+.section {
+  padding: 72px 0;
+}
+
+.section__eyebrow {
+  margin-bottom: 12px;
+  color: var(--color-primary, #d9785f);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.section__title {
+  margin: 0;
+  color: var(--color-heading, #2f251f);
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.section h2.section__title {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+}
+
+.section__description {
+  margin-top: 18px;
+  max-width: 720px;
+  color: var(--color-muted, #6d5d53);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid rgba(95, 63, 45, 0.1);
+  background: rgba(255, 248, 241, 0.92);
+  backdrop-filter: blur(12px);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: min(100% - 32px, 1080px);
+  margin: 0 auto;
+  padding: 14px 0;
+}
+
+.site-header__brand {
+  color: #2f251f;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.site-header__nav {
+  display: none;
+}
+
+.site-header__nav-link {
+  color: #6d5d53;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-header__nav-link:hover {
+  color: #d9785f;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: var(--color-primary, #d9785f);
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(217, 120, 95, 0.24);
+}
+
+.cta-button:focus-visible,
+.site-header__brand:focus-visible,
+.site-header__nav-link:focus-visible {
+  outline: 3px solid rgba(217, 120, 95, 0.35);
+  outline-offset: 4px;
+}
+
+.hero {
+  padding-top: 56px;
+}
+
+.hero__inner {
+  display: grid;
+  gap: 32px;
+}
+
+.hero__actions {
+  margin-top: 28px;
+}
+
+.hero__visual {
+  margin: 0;
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 18px 48px rgba(95, 63, 45, 0.14);
+}
+
+.hero__notice {
+  margin-top: 12px;
+  color: #7b6a5f;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.feature-grid,
+.order-guide__grid,
+.gallery__grid,
+.faq__list {
+  display: grid;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.feature-card,
+.order-guide__card,
+.faq__item,
+.notice__box {
+  border: 1px solid rgba(95, 63, 45, 0.1);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+  padding: 24px;
+}
+
+.feature-card__title,
+.order-guide__title,
+.faq__question,
+.notice__title {
+  margin: 0;
+  color: #2f251f;
+  font-size: 1.1rem;
+}
+
+.feature-card__description,
+.order-guide__description,
+.faq__answer,
+.notice__description {
+  margin: 10px 0 0;
+  color: #6d5d53;
+  line-height: 1.7;
+}
+
+.farm-story {
+  background: rgba(255, 236, 221, 0.45);
+}
+
+.farm-story__inner {
+  display: grid;
+  gap: 28px;
+}
+
+.farm-story__list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.farm-story__item {
+  border-radius: 18px;
+  background: #fff;
+  padding: 16px 18px;
+  color: #5d4b40;
+  font-weight: 700;
+}
+
+.gallery__item {
+  margin: 0;
+}
+
+.gallery__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.order-guide__actions {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.notice {
+  padding-top: 0;
+}
+
+.site-footer {
+  padding: 48px 0;
+  background: #2f251f;
+  color: #fff8f1;
+}
+
+.site-footer__inner {
+  display: grid;
+  gap: 24px;
+}
+
+.site-footer__brand {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.site-footer__description {
+  margin: 10px 0 0;
+  color: rgba(255, 248, 241, 0.78);
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .site-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero__inner {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
+    align-items: center;
+  }
+
+  .feature-grid,
+  .order-guide__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .farm-story__inner,
+  .site-footer__inner {
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+  }
+
+  .site-footer__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .feature-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
