@@ -19,3 +19,4 @@ The user is a student and wants to save cost.
 - Do not add new libraries unless necessary.
 - Do not add DB, payment, auth, admin, cart, order history, invoice automation, or server features.
 - For errors, explain the cause in one line, then provide the minimal fix.
+- When the request is large, split the work into small steps and ask for only the next changed files.

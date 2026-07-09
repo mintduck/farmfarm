@@ -91,11 +91,9 @@ alwaysApply: true
 
 ## Image Usage
 
-- The user does not currently have real farm or peach photos.
-- Use placeholder images from Unsplash or Pixabay when needed.
-- Images must be used only as mood/reference visuals, not as actual photos of the user's parents, farm, or peaches.
-- Avoid images with identifiable people, brand logos, trademarks, or misleading premium packaging.
-- Prefer warm, natural, simple images of peaches, orchards, fruit boxes, hands picking fruit, or summer farm scenes.
+- The user now has real farm and peach photos.
+- Use images from public/images first.
+- Main hero image should use /images/peach-closeup.jpg when available.
+- Gallery images should use orchard and peach photos from public/images.
+- Do not use placeholder images unless the user explicitly asks.
 - Add clear alt text for every image.
-- If possible, keep image source URLs or photographer credits in a separate note for later replacement.
-- Replace placeholder images with real family/farm photos when available.
