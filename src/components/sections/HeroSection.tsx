@@ -39,9 +39,9 @@ function HeroSection() {
           />
 
           <figcaption className="hero__notice">
-            오늘 아침 경북 영천 과수원에서 찍은 홍백복숭아입니다.
+            7월 9일 아침 복숭아밭에서 촬영한 홍백복숭아입니다.
             <br />
-            수확 사진은 준비되는 대로 추가로 업데이트할 예정입니다.
+            현재 복숭아 작황 상태로 수확일은 7월 25일경으로 예상됩니다.
           </figcaption>
         </figure>
       </div>
