@@ -32,16 +32,16 @@ function HeroSection() {
         <figure className="hero__visual">
           <img
             className="hero__image"
-            src="/images/peach-closeup.jpg"
-            alt="경북 영천 과수원에서 자라고 있는 홍백복숭아"
+            src="/images/peach-packaging.jpg"
+            alt="배송을 기다리는 뉴스톡팜 홍백복숭아"
             width={1080}
             height={810}
           />
 
           <figcaption className="hero__notice">
-            7월 9일 아침 복숭아밭에서 촬영한 홍백복숭아입니다.
+            7월 13일 아침 수확하여 포장한 홍백복숭아입니다.
             <br />
-            현재 복숭아 작황 상태로 수확일은 7월 25일경으로 예상됩니다.
+            아침에 갓 딴 복숭아를 선별하여 보내드립니다.
           </figcaption>
         </figure>
       </div>
