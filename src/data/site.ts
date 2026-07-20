@@ -1,13 +1,13 @@
-export const siteTitle = "뉴스톡팜 홍백복숭아 예약 주문";
+export const siteTitle = "뉴스톡팜 홍백복숭아 주문";
 
 export const siteDescription =
   "경상북도 영천시에서 부모님이 직접 돌보고 수확하는 뉴스톡팜의 첫 홍백복숭아를 소개합니다. 소량 수확 예정으로 예약 주문을 받고 있습니다.";
 
 export const orderFormUrl = "https://naver.me/5Yo4AVw0";
 
-export const primaryCTA = "홍백복숭아 예약하기";
+export const primaryCTA = "홍백복숭아 주문하기";
 
-export const secondaryCTA = "네이버폼으로 예약하기";
+export const secondaryCTA = "네이버폼으로 주문하기";
 
 export const navItems = [
   {
@@ -71,7 +71,7 @@ export const farmStoryItems = [
   "경상북도 영천시 과수원에서 재배합니다.",
   "부모님이 직접 복숭아를 돌보고 수확합니다.",
   "올해는 홍백복숭아를 소량으로 준비하고 있습니다.",
-  "문제가 있을 경우 전화 주시면 아빠 바꿔드릴게요.",
+  "문제가 있을 경우 배송 당일 사진을 보내주세요.",
 ];
 
 export const galleryEyebrow = "오늘 아침 과수원";
@@ -83,20 +83,20 @@ export const galleryDescription =
 
 export const galleryImages = [
   {
-    src: "/images/peach-closeup.jpg",
-    alt: "경북 영천 과수원에서 자라고 있는 홍백복숭아 클로즈업",
-  },
-  {
     src: "/images/orchard-01.jpg",
-    alt: "경북 영천 뉴스톡팜 과수원 전경",
+    alt: "경북 영천 뉴스톡팜의 홍백복숭아 클로즈업",
   },
   {
     src: "/images/orchard-02.jpg",
-    alt: "홍백복숭아가 자라고 있는 과수원 나무",
+    alt: "경북 영천 뉴스톡팜의 홍백복숭아 사진",
   },
   {
     src: "/images/orchard-03.jpg",
-    alt: "부모님이 돌보고 있는 복숭아 과수원 풍경",
+    alt: "경북 영천 뉴스톡팜의 홍백복숭아 사진",
+  },
+  {
+    src: "/images/orchard-04.jpg",
+    alt: "수확 후 복숭아 선별기에서 선별작업 중",
   },
 ];
 
@@ -132,7 +132,7 @@ export const faqItems = [
   {
     question: "언제 받을 수 있나요?",
     answer:
-      "현재 작황 상태를 보아 7월 25일경 수확이 예상됩니다. 다만 복숭아는 날씨와 숙도에 따라 수확일이 달라질 수 있어 수확시기가 오면 다시 안내드리겠습니다.",
+      "비가 오지 않으면 매일 수확 하고 있습니다. 매일 밤 주문서 취합하여 다음날 아침 수확합니다. 익일 특급으로 보내드리기 때문에 주문 부터 수령까지 최소 3일은 예상합니다.",
   },
   {
     question: "모양이 고르지 않을 수도 있나요?",
@@ -142,7 +142,7 @@ export const faqItems = [
   {
     question: "복숭아에 문제가 있을 경우 어떻게 하나요?",
     answer:
-      "평균 연 5회 이상 아빠를 만납니다. 이 페이지를 확인하시는 상당수가 제 친구들로, 아빠 만나면 전화 바꿔드릴게요.",
+      "수령 당일 사진을 보내주시면 빠른 대응을 드리겠습니다. 그래도 문제가 있을 경우, 평균 연 5회 이상 아빠를 만납니다. 다음 가정 방문에서 아빠를 만나면 전화 바꿔드리겠습니다. (원하실 경우)",
   },
 ];
 
