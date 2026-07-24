@@ -1,9 +1,9 @@
 export const siteTitle = "뉴스톡팜 홍백복숭아 주문";
 
 export const siteDescription =
-  "경상북도 영천시에서 부모님이 직접 돌보고 수확하는 뉴스톡팜의 첫 홍백복숭아를 소개합니다. 소량 수확 예정으로 예약 주문을 받고 있습니다.";
+  "경상북도 영천시에서 부모님이 직접 돌보고 수확하는 뉴스톡팜의 첫 홍백복숭아를 소개합니다. ";
 
-export const orderFormUrl = "https://naver.me/5Yo4AVw0";
+export const orderFormUrl = "https://naver.me/xSBvI1oa";
 
 export const primaryCTA = "홍백복숭아 주문하기";
 
@@ -19,7 +19,7 @@ export const navItems = [
     href: "#farm-story",
   },
   {
-    label: "예약 안내",
+    label: "주문 안내",
     href: "#order-guide",
   },
 ];
@@ -29,7 +29,7 @@ export const heroEyebrow = "농장에서 식탁까지 신선하게 찾아갑니�
 export const heroTitle = "수확 당일 선별하여 보내드립니다.";
 
 export const heroDescription =
-  "경상북도 영천시의 작은 과수원에서 부모님이 정성껏 키운 홍백복숭아입니다. 경상북도 청도복숭아연구소의 신품종으로 아삭쫀득한 식감과 높은 당도 자랑합니다. 두바이까지 소문난 프리미엄 복숭아! 매너로 모십니다. 수확 일정은 날씨에 따라 변경될 수 있습니다.";
+  "경상북도 영천시의 작은 과수원에서 부모님이 정성껏 키운 홍백복숭아입니다. 경상북도 청도복숭아연구소의 신품종으로 아삭쫀득한 식감과 높은 당도 자랑합니다. 두바이까지 소문난 프리미엄 복숭아! 매너로 모십니다. 7월까지만 만나보실 수 있으니 서둘러 주세요.";
 
 export const peachIntroEyebrow = "홍백복숭아 소개";
 
@@ -37,7 +37,7 @@ export const peachIntroTitle =
   "확신의 P 뉴스톡팜 홍백 복숭아";
 
 export const peachIntroDescription =
-  "날씨와 복숭아 선성장 속도에 따라 수확 일정이 달라집니다. 예약주신 순서대로 수확 당일에 안내를 드리고 있습니다만, 정확한 날짜를 말씀드리기는 어렵습니다. 너른 양해를 부탁드리며 최대한 가까운 시일내에 받아보실 수 있도록 노력하겠습니다. 언제올 지 모르는 복숭아를 기다리는 재미도 하나의 컨텐츠로 즐겨주신다면 정말 감사하겠습니다. 수확 직후에는 아삭하며 후숙되면 쫀득해지는 딱딱복숭아 홍백입니다. 당도는 13브릭스 이상으로 기대하고 있습니다.";
+  "날씨와 복숭아 선성장 속도에 따라 수확 일정이 달라집니다. 주문 순서대로 수확 당일에 안내를 드리고 있습니다만, 정확한 날짜를 말씀드리기는 어렵습니다. 너른 양해를 부탁드리며 최대한 가까운 시일내에 받아보실 수 있도록 노력하겠습니다. 언제올 지 모르는 복숭아를 기다리는 재미도 하나의 컨텐츠로 즐겨주신다면 정말 감사하겠습니다. 수확 직후에는 아삭하며 후숙되면 쫀득해지는 딱딱복숭아 홍백입니다. 당도는 13브릭스 이상으로 기대하고 있습니다.";
 
 export const peachFeatureItems = [
   {
@@ -74,12 +74,12 @@ export const farmStoryItems = [
   "문제가 있을 경우 배송 당일 사진을 보내주세요.",
 ];
 
-export const galleryEyebrow = "오늘 아침 과수원";
+export const galleryEyebrow = "뉴스톡팜 복숭아 과수원";
 
 export const galleryTitle = "실제로 자라고 있는 뉴스톡팜의 홍백복숭아입니다.";
 
 export const galleryDescription =
-  "7월 9일 아침 부모님이 보내주신 과수원 사진과 복숭아 사진을 담았습니다.";
+  "뉴스톡팜에서 자라는 실제 복숭아나무 사진입니다. 복숭아선별기로 선별하는 모습도 함께 담았습니다.";
 
 export const galleryImages = [
   {
@@ -100,9 +100,9 @@ export const galleryImages = [
   },
 ];
 
-export const orderGuideEyebrow = "예약 안내";
+export const orderGuideEyebrow = "주문 안내";
 
-export const orderGuideTitle = "예약 전 확인해 주세요.";
+export const orderGuideTitle = "주문 전 확인해 주세요.";
 
 export const orderGuideItems = [
   {
@@ -110,16 +110,16 @@ export const orderGuideItems = [
     description: "4.5kg 박스 기준으로 준비하며, 실제 무게는 중량이 초과 될 수 있습니다.",
   },
   {
-    title: "수확 시기",
-    description: "7월 25일경 수확이 예상됩니다. 일정은 날씨와 숙도에 따라 변경될 수 있습니다.",
+    title: "수확",
+    description: "비가 오지 않으면 거의 매일 수확하고 있습니다. 수확 일정은 날씨와 숙도에 따라 변경될 수 있습니다.",
   },
   {
     title: "배송",
-    description: "택배 배송이 가능합니다. 수확 시기가 다가오면 배송 안내를 드리겠습니다.",
+    description: "익일 특급 배송으로 보내드립니다. 수확 및 배송시 안내를 드리고 있습니다.",
   },
   {
     title: "결제",
-    description: "예약 후 안내에 따라 송금해주시면 됩니다.",
+    description: "주문서 작성 후 안내에 따라 송금해주시면 됩니다.",
   },
 ];
 
@@ -127,12 +127,12 @@ export const faqItems = [
   {
     question: "홍백복숭아는 어떤 복숭아인가요?",
     answer:
-      "경상북도 청도복숭아연구소에서 개발한 신품종 복숭아로, 아삭쫀득한 식감과 높은 당도를 자랑합니다. 두바이까지 소문난 프리미엄 복숭아!",
+      "경상북도 청도복숭아연구소에서 개발한 신품종 복숭아로, 아삭쫀득한 식감과 높은 당도를 자랑합니다. 두바이까지 소문난 프리미엄 복숭아 입니다.",
   },
   {
     question: "언제 받을 수 있나요?",
     answer:
-      "비가 오지 않으면 매일 수확 하고 있습니다. 매일 밤 주문서 취합하여 다음날 아침 수확합니다. 익일 특급으로 보내드리기 때문에 주문 부터 수령까지 최소 3일은 예상합니다.",
+      "주문서를 취합하여 다음날 아침 수확합니다. 익일 특급으로 보내드리기 때문에 수확 다음날 신선한 상태로 받아보실 수 있습니다. 하지만 복숭아의 숙도와 날씨에 따라 수확 작업이 힘든 날도 있음을 알려드립니다. 주문부터 수령까지 최소 3일이지만 그 이상 소요될 수 있음을 알려드립니다.",
   },
   {
     question: "모양이 고르지 않을 수도 있나요?",
@@ -152,4 +152,4 @@ export const noticeDescription =
   "복숭아는 생물이라 크기와 모양이 모두 같을 수 없고, 수확 시기와 날씨에 따라 상태가 조금씩 달라질 수 있습니다. 모양이 고르지 못할 수 있지만, 부모님이 하나씩 살펴 정성껏 준비하겠습니다.";
 
 export const footerDescription =
-  "뉴스톡팜의 첫 홍백복숭아를 따뜻하게 봐주셔서 감사합니다. 필요하신 분만 편하게 예약해 주세요.";
+  "뉴스톡팜의 첫 홍백복숭아를 따뜻하게 봐주셔서 감사합니다. 필요하신 분들은 편하게 주문해 주세요.";
