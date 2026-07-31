@@ -3,7 +3,7 @@ export const siteTitle = "뉴스톡팜 홍백복숭아 주문";
 export const siteDescription =
   "경상북도 영천시에서 부모님이 직접 돌보고 수확하는 뉴스톡팜의 첫 홍백복숭아를 소개합니다. ";
 
-export const orderFormUrl = "https://naver.me/FLEGVR8D";
+export const orderFormUrl = "https://naver.me/GArYl5c9";
 
 export const primaryCTA = "홍백복숭아 주문하기";
 
